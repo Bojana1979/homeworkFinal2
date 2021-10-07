@@ -1,0 +1,12 @@
+{
+    "selectOrganization" : ".el-icon-caret-top.el-input__icon", 
+    "boardTitleField" : "input[name='name']", 
+    "cancelButton" : "button[name='prev_btn']", 
+    "nextButton" : "button[name='next_btn']", 
+    "boardTypeScrum" : "span[name='type_scrum']", 
+    "boardTypeKanban" : "span[name='type_kanban']", 
+    "uploadLogoButton" : ".vs-c-btn.vs-c-btn--rounded-square.vs-u-width--full", 
+    "deleteButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='delete-btn']", 
+    "cancelLogoLoadingButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='cancel-btn']",
+    "saveButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='save-btn']"
+}

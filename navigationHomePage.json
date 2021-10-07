@@ -1,0 +1,6 @@
+{
+    "loginButton" : "a[href='https://cypress.vivifyscrum-stage.com/login']",
+    "startFreeTrial" : ".vsp-c-navigation > .vsp-c-btn.vsp-c-btn--nowrap.vsp-c-btn--primary",
+    "tryDemo" : "a[id='tryDemoHeaderButton']",
+    "download" : ".vsp-c-btn--nowrap.vsp-u-text-uppercase > strong"
+}

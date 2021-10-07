@@ -1,0 +1,37 @@
+{
+    "backlog" : {
+        "addItems" : ".vs-add-new-task-to-top .vs-c-btn--themify-secondary",
+        "menagePerformers" : ".vs-c-new-assignee-icon.vs-u-img--round",
+        "editItemTitle" : "a[title='Edit Item title']",
+        "readMore" : ".vs-c-table-icon-lighten.vs-c-task-card__not-selectable.vs-task-card__title-read-more-link",
+        "estimation" : "div[title='Estimation'] > .vs-c-dropdown-value.vs-u-value",
+        "comments" : ".vs-c-controls.vs-c-controls--comments.vs-c-task-card__not-selectable > div[title='Comments']",
+        "files" : ".vs-c-controls.vs-c-controls--files.vs-c-task-card__not-selectable > div[title='Files']",
+        "priority" : "a[title='Priority']",
+        "subitems" : ".vs-c-controls.vs-c-task-card__not-selectable > div[title='Subitems']",
+        "checklist" : "div:nth-of-type(5) > div[title='Checklists']",
+        "events" : "div:nth-of-type(6) > div[title='Events']",
+        "labels" : "div:nth-of-type(1) > div[title='Labels']",
+        "move" : "div:nth-of-type(2) > div[title='Move']",
+        "share" : "div:nth-of-type(3) > div[title='Share']",
+        "more" : "div:nth-of-type(4) > div[title='More']",
+        "openItemInNewTab" : ".vs-c-task-dropdown__body > a:nth-of-type(1) > span",
+        "deleteItem" : "a:nth-of-type(2) > span",
+        "clone" : "a:nth-of-type(3) > span",
+        "mirorItemInAnotherBoard" : "a:nth-of-type(4) > span",
+        "moveToTop" : "a:nth-of-type(5) > span",
+        "shoeRelatedItem" : "a:nth-of-type(6) > span",
+        "addTopredefinedItems" : "a:nth-of-type(7) > span",
+        "moveToAnotherBoard" : "a:nth-of-type(8) > span"
+
+    },
+    "sprint" : {
+        "moreButton" : ".vs-c-columns [draggable] .vs-c-btn--link",
+        "deleteButton" : "li:nth-of-type(1) > .vs-c-dropdown-item-column-limit",
+        "insertPredefinedItems" : "li:nth-of-type(2) > .vs-c-dropdown-item-column-limit",
+        "startSprint" : "li:nth-of-type(3) > .vs-c-dropdown-item-column-limit",
+        "exportSprint" : "li:nth-of-type(4) > .vs-c-dropdown-item-column-limit",
+        "setColumnLimit" : ".vs-c-dropdown-item-column-limit > span:nth-of-type(1)",
+        "addNewSprint" : ".not-sortable.vs-add-column-btn-gap.vs-c-col.vs-is-empty > .vs-add-new-task.vs-c-btn.vs-c-btn--round.vs-c-btn--sm.vs-c-btn--themify-primary"
+    }
+}
