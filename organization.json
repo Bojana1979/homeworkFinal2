@@ -1,0 +1,11 @@
+{
+    "archiveBoardButton" : ".vs-c-boards-item__actions div",
+    "addTeamMemberButton" : ".vs-c-boards-item__actions span",
+    "membersButton" : ".vs-c-boards-item__content-section-title > span",
+    "addNewBoard" : ".vs-c-media > .vs-c-boards-item__title > strong",
+    "importButton" : "a[href='/organizations/1481/import-board']",
+    "addNewBoardSidebar" : ".vs-c-btn.vs-c-btn--primary.vs-c-btn--spaced.vs-c-btn--spaced-no-icon.vs-c-btn--spaced-sm.vs-u-text--uppercase",
+    "searchSidebar" : ".vs-c-project-search > .el-tooltip.vs-c-btn.vs-c-btn--link",
+    "showNotification" : ".el-tooltip .vs-c-btn--link",
+    "howItWorksButton" : ".vs-l-project__options > .el-tooltip.vs-c-btn.vs-c-btn--link"
+}
