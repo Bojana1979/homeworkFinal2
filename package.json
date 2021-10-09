@@ -1,0 +1,22 @@
+{
+  "name": "homeworkfinal2",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Bojana1979/homeworkFinal2.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Bojana1979/homeworkFinal2/issues"
+  },
+  "homepage": "https://github.com/Bojana1979/homeworkFinal2#readme",
+  "devDependencies": {
+    "cypress": "^8.5.0"
+  }
+}
