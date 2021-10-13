@@ -8,5 +8,24 @@
     "uploadLogoButton" : ".vs-c-btn.vs-c-btn--rounded-square.vs-u-width--full", 
     "deleteButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='delete-btn']", 
     "cancelLogoLoadingButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='cancel-btn']",
-    "saveButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='save-btn']"
+    "saveButton" : "div:nth-of-type(29) > .el-dialog__wrapper.vs-c-modal__flex-center > div .vs-c-modal__footer  button[name='save-btn']",
+    "addNewBoard" : ".vs-c-organization-boards strong",
+    "createColumn" : ".vs-add-column-btn-gap > .vs-add-new-task",
+    "columnName" : "input[name='column-name']",
+    "newColumn" : " .vs-c-task-list.vs-is-empty",
+    "dropdownMany" : "div:nth-of-type(3) > .vs-c-col__head > .vs-u-actions > .vs-c-dropdown-wrapper > .vs-c-btn.vs-c-btn--link.vs-c-btn--sm",
+    "delete" : "li:nth-of-type(1) > .vs-c-dropdown-item-column-limit",
+    "createTask" : "div:nth-of-type(3) > .vs-c-task-list.vs-is-empty > .vs-add-new-task.vs-c-btn.vs-c-btn--round.vs-c-btn--sm.vs-c-btn--themify-primary",
+    "textArea" : "textarea[name='item_name']",
+    "saveTaskButton" : "button[name='new_item_save'] > span",
+    "moreButton" : ":nth-child(3) > .vs-c-col__head > .vs-u-actions > .vs-c-dropdown-wrapper > .vs-c-btn",
+    "deleteTask" : ":nth-child(1) > .vs-c-dropdown-item-column-limit",
+    "columnName1" : ":nth-child(3) > .vs-c-col__head > .vs-c-col__head-info > :nth-child(1) > .vs-c-col__title",
+    "deleteSprint" : ":nth-child(3) > .el-col > .el-radio > .el-radio__input > .el-radio__inner",
+    "confirmButton" : ".el-button--success",
+    "sprintMoreButton" : ":nth-child(2) > .vs-c-col__head > .vs-u-actions > .vs-c-dropdown-wrapper > .vs-c-btn",
+    "startSprint" : ":nth-child(3) > .vs-c-dropdown-item-column-limit",
+    "startSprintButton" : ".el-button--success",
+    "okBoardButton" : ".vs-c-modal--features-button > .vs-c-btn"
+
 }

@@ -1,0 +1,8 @@
+{
+    "boardConfiguration" : ":nth-child(12) > [effect='dark'] > :nth-child(2) > .vs-c-site-logo",
+    "boardTitle" : ":nth-child(1) > .el-form-item__content > .el-input > .el-input__inner",
+    "boardDescription" : ":nth-child(1) > .vs-c-settings-section > .vs-c-settings-section-form > .el-form > :nth-child(3) > .el-form-item__content > .el-input > .el-input__inner",
+    "updateButton" : ".vs-u-text--left > .vs-c-btn",
+    "deleteButton" : ".vs-c-btn.vs-c-btn--spaced.vs-c-btn--warning > span:nth-of-type(2)",
+    "confirmButton" : "button[name='save-btn']"
+}

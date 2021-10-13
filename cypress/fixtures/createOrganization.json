@@ -7,5 +7,5 @@
     "cancelLogoUploadButton" : "button[name='cancel_btn']", 
     "saveButton" : "button[name='save-btn']", 
     "previousButton" : "button[name='prev_btn']",
-    "createButton" : "button[name='next_btn']"
+    "createButton" : "[name='next_btn']"
 }

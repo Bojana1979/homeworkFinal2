@@ -1,0 +1,43 @@
+{
+    "user" : {
+        "email" : "bojana.sredojev@gmail.com",
+        "password" : "Ognjen2013"
+    }, 
+    "negativeData" : {
+        "negativEmail" : "bojana@gmail.com",
+        "negativPassword" : "12345678",
+        "negativEmail2" : "bojana@",
+        "negativEmail3" : "@gmail.com",
+        "negativEmail4" : ".com"
+    },
+    "newUser" : {
+        "email" : "bojana@gmail.com",
+        "password" : "Test1234",
+        "users" : "11"
+    },
+    "newUserNegativ" : {
+        "email2" : "bojana",
+        "email3" : "bojana@",
+        "email4" : "bojana@yahoo",
+        "email5" : "@yahoo.com",
+        "email6" : ".com",
+        "passwordNegativ" : "    ",
+        "usersNegativ1" : "10",
+        "userNegativ2" : "60"
+    },
+    "organization" : {
+        "name" : "My organization",
+        "newName" : "Second name",
+        "newName2" : "Third name",
+        "newVacationDays" : "25"
+    },
+    "board" : {
+        "boardName" : "prvi board",
+        "boardNewName" : "novo ime",
+        "boardDescription" : "updated board name"
+    },
+    "newColumn" : {
+        "columnName" : "To Do",
+        "taskName" : "prvi task"
+    }
+}

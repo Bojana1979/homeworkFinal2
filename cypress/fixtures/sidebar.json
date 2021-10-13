@@ -1,10 +1,15 @@
 {
     "addNewButton" : ".el-tooltip.vs-c-list-btn--new-workspace.vs-c-list__btn > span",
-    "addNewOrganization" : "div:nth-of-type(21)  .vs-c-list > li:nth-of-type(1) > a > span",
+    "addNewOrganization" : "li:nth-of-type(1) > a > span",
     "addNewBoard" : "li:nth-of-type(2) > a > span",
     "importBoard" : "li:nth-of-type(3) > a > span",
     "organizationColapsButton" : ".collapsed.vs-c-btn.vs-c-btn--link.vs-c-btn--sm.vs-c-list__caret",
     "createdOrganizationButton" : "a[href='/organizations/1481/boards']",
     "createdBoardButton" : ".vb-content .vs-c-img--board-avatar",
-    "addNewBoardButton" : "li:nth-of-type(1) .vs-c-list.vs-c-list--boards  .el-tooltip.vs-c-list-btn--add-new.vs-c-list__btn > span"
+    "addNewBoardButton" : "li:nth-of-type(1) .vs-c-list.vs-c-list--boards  .el-tooltip.vs-c-list-btn--add-new.vs-c-list__btn > span",
+    "profileButton" : "a[href='/account/settings']",
+    "accountButton" : ".vs-u-img--round",
+    "organizationButton" : ".vs-c-list__oragnisation-item > :nth-child(2)",
+    "configurationButton" : ":nth-child(8) > span > div > .vs-c-site-logo",
+    "boardOk" : ".vs-c-modal--features-button > .vs-c-btn"
 }
