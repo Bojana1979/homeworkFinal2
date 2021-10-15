@@ -6,23 +6,13 @@ const profile = require("../fixtures/sidebar.json")
 const logout = require("../fixtures/navigation.Board.json")
 
 describe("first cypress block", () => {
-    // it("first test", () => {
-    //     expect(true).to.eq(true);
-    // });
-
-    // it("first test", () => {
-    //     expect(true).to.eq(false);
-    // });
-    // it("visit vivfy scrum", () => {
-    //     cy.visit("/", {timeout: 30000});
-    //})
     it("negativ login_1", () => {
         cy.visit("/");
         cy.get(loginPage.passwordField).type(data.negativeData.negativEmail);
         cy.get(loginPage.passwordField).type(data.user.password);
         cy.get(loginPage.loginButtonSubmit).click();
     })
-    it("negati login 1", () => {
+    it("negativ login 1", () => {
         cy.visit("/");
         cy.get(loginPage.emailField).clear().type(data.user.email);
         cy.get(loginPage.passwordField).clear().type(data.negativeData.negativPassword);
@@ -53,7 +43,7 @@ describe("first cypress block", () => {
         cy.get(loginPage.loginButtonSubmit).click();
     });
 
-    it.only("valid login", () => {
+    it("valid login", () => {
         cy.visit("/");
         cy.get(loginPage.emailField).clear().type(data.user.email);
         cy.get(loginPage.passwordField).clear().type(data.user.password);

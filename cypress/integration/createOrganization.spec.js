@@ -8,7 +8,6 @@ import updateOrgg from "../fixtures/updateOrganization.json"
 import board from "../fixtures/createNewBoard.json"
 import boardUpdate from "../fixtures/boardUpdate.json"
 
-
 describe("vivifyScrum functionality", () => {
     it("new organization creation with valid data", () => {
         cy.visit("/");
