@@ -1,0 +1,14 @@
+{
+    "updateNameField" : ".vs-c-settings-section-form > .el-form > .el-form-item > .el-form-item__content > .el-input > .el-input__inner",
+    "updateButton" : "button[type='submit']",
+    "daysCheckbox" : "span.vs-c-checkbox-check",
+    "startDayButton" : ".vs-c-material-input.vs-c-settings-section-form.vs-c-settings-section-form--limited > .el-dropdown.vs-c-dropdown-underline > .vs-c-btn.vs-c-btn--link",
+    "startDay" : ".el-dropdown-menu.vs-c-users-stats-dropdown > li > .vs-c-task-modal-type-dropdown__item-name",
+    "vacationDay" : "input[name='vacationDays']",
+    "workingMonths" : "input[name='numOfWorkingMonthsForAdditionalDays']",
+    "vacationDaysGranted" : "input[name='additionalVacationDays']",
+    "deleteOrganization" : ".vs-c-btn.vs-c-btn--spaced.vs-c-btn--warning > span:nth-of-type(2)",
+    "currentPasswordField" : "div.el-input > input[type='password']",
+    "yesButton" : "button[name='save-btn']",
+    "createdOrganization" : ".vs-c-list__btn > span > span"
+}

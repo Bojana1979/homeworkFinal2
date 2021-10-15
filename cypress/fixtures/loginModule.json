@@ -1,5 +1,5 @@
 {
-    "emaiField" : "input[name='email']",
+    "emailField" : "input[name='email']",
     "passwordField" : "input[type='password']",
     "forgotPasswordButton" : "a[href='/forgot-password']",
     "loginButtonSubmit" : "button[type='submit']",

@@ -8,4 +8,5 @@
     "searchSidebar" : ".vs-c-project-search > .el-tooltip.vs-c-btn.vs-c-btn--link",
     "showNotification" : ".el-tooltip .vs-c-btn--link",
     "howItWorksButton" : ".vs-l-project__options > .el-tooltip.vs-c-btn.vs-c-btn--link"
+
 }
