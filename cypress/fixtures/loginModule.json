@@ -4,9 +4,9 @@
     "forgotPasswordButton" : "a[href='/forgot-password']",
     "loginButtonSubmit" : "button[type='submit']",
     "BackToHomeButton" : ".vs-c-auth-modal__body-text.vs-u-font-bold.vs-u-text--uppercase",
-    "googleButton" : ".vs-c-btn.vs-c-btn--lg.vs-c-btn--primary.vs-c-btn--spaced.vs-c-btn-auth--top-gap.vs-u-font-md.vs-u-font-weight-bold.vs-u-font-weight-regular",
-    "facebookButton" : ".vs-c-btn.vs-c-btn--fb.vs-c-btn--social-auth",
-    "twitterButton" : ".vs-c-btn.vs-c-btn--social-auth.vs-c-btn--tw",
-    "IButton" : ".vs-c-btn.vs-c-btn--regzen.vs-c-btn--social-auth",
+    "googleButton" : "[data-cy=login-google-button]",
+    "facebookButton" : "[data-cy=login-facebook-button]",
+    "twitterButton" : "[data-cy=login-twitter-button]",
+    "regzenButton" : "[data-cy=login-regzen-button]",
     "signUpButton" : ".vs-c-auth-modal__bottom-text-main.vs-u-font-bold.vs-u-text--uppercase"
 }
