@@ -8,5 +8,5 @@
     "facebookButton" : "[data-cy=login-facebook-button]",
     "twitterButton" : "[data-cy=login-twitter-button]",
     "regzenButton" : "[data-cy=login-regzen-button]",
-    "signUpButton" : ".vs-c-auth-modal__bottom-text-main.vs-u-font-bold.vs-u-text--uppercase"
+    "signUpButton" : "[data-cy=login-sign-up-link]"
 }

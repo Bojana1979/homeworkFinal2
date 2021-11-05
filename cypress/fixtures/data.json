@@ -1,7 +1,8 @@
 {
     "user" : {
         "email" : "bojana.sredojev@gmail.com",
-        "password" : "Ognjen2013"
+        "password" : "Ognjen2013",
+        "name": "Bojana Bojanic"
     }, 
     "negativeData" : {
         "negativEmail" : "bojana@gmail.com",
@@ -38,6 +39,9 @@
     },
     "newColumn" : {
         "columnName" : "To Do",
-        "taskName" : "prvi task"
+        "columnName2": "In progress",
+        "columnName3": "Done",
+        "taskName" : "prvi task",
+        "sprintName": "Sprint 1"
     }
 }

@@ -17,10 +17,6 @@ describe("assertations", () => {
         cy.get(loginPage.passwordField).clear().type(data.user.password);
         cy.get(loginPage.loginButtonSubmit).click();
         cy.wait(3000)
-        // cy.wait('@login').then((interception) => {
-        //     console.log(interception)
-        // })
-        //asserts user name
         cy.get(logout.userName).should('be.visible')
         cy.get(logout.userName).should('contain', 'Bojana Bojanic')
     })

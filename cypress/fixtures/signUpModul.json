@@ -1,9 +1,9 @@
 {
-    "signUpStandardButton" : ".vsp-c-pricing-plan-list.vsp-c-pricing-plan-list--annual > li:nth-of-type(2) > a[title='Standard']",
+    "signUpStandardButton" : ".vsp-c-pricing-plan-list--annual > :nth-child(2) > .vsp-c-btn",
     "emailField" : "input[name='email']",
-    "passwordField" : "input[name='password']",
+    "passwordField" : "[type='password']",
     "numberOfUsersField" : "input[name='number_of_users']",
-    "termsAndConditionsCheckbox" : ".vs-c-checkbox-check']",
+    "termsAndConditionsCheckbox" : ".vs-c-checkbox-check",
     "submitButton" : "button[type='submit']",
     "googleButton" : "[data-cy=sign-up-google-button]",
     "facebookButton" : "[data-cy=sign-up-facebook-button]",
