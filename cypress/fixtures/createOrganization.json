@@ -7,5 +7,7 @@
     "cancelLogoUploadButton" : "button[name='cancel_btn']", 
     "saveButton" : "button[name='save-btn']", 
     "previousButton" : "button[name='prev_btn']",
-    "createButton" : "[name='next_btn']"
+    "createButton" : "[name='next_btn']",
+    "assertTitle": ".vs-l-organization__title",
+    "assertCreatedOrg": ".vs-c-list__oragnisation-item > :nth-child(2)"
 }

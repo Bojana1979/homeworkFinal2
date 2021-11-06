@@ -1,0 +1,9 @@
+{
+    "noEmail": "The email field must be a valid email",
+    "noPassword": "The password field is required",
+    "noUsers": "The number of users field is required",
+    "incorrectNumberOfUsers": "The number of users must be between 11 and 50",
+    "userExist": "User with that mail already exist",
+    "wrongData": "Oops! Your email/password combination is incorrect"
+    
+}

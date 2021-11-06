@@ -1,0 +1,5 @@
+{
+    "userName": ".vs-c-user-name",
+    "profile": "[data-cy=account-profile] > span > div > .vs-c-site-logo",
+    "logoutButton": ".vs-c-logout > .vs-c-btn > span"
+}

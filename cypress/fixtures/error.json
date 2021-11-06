@@ -1,0 +1,8 @@
+{
+    "noEmailError": ":nth-child(1) > .vs-c-form-item__error-wrapper > .el-form-item__error",
+    "noPasswordError": ":nth-child(2) > .vs-c-form-item__error-wrapper > .el-form-item__error",
+    "noUsersError": ":nth-child(3) > .vs-c-form-item__error-wrapper > .el-form-item__error",
+    "theSameEmail": ".el-message__group > p",
+    "inncorectCredentials": ".vs-c-custom-errors > .el-form-item__error"
+
+}

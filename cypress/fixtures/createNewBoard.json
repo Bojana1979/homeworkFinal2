@@ -26,6 +26,14 @@
     "sprintMoreButton" : ":nth-child(2) > .vs-c-col__head > .vs-u-actions > .vs-c-dropdown-wrapper > .vs-c-btn",
     "startSprint" : ":nth-child(3) > .vs-c-dropdown-item-column-limit",
     "startSprintButton" : ".el-button--success",
-    "okBoardButton" : ".vs-c-modal--features-button > .vs-c-btn"
+    "okBoardButton" : ".vs-c-modal--features-button > .vs-c-btn",
+    "assertBoaardTitle": ".vs-l-project__title",
+    "assertBoardList": ".vs-c-col__head",
+    "assertColumnTitle": ":nth-child(3) > .vs-c-col__head",
+    "assertCreatedTask": ".vs-u-padding--sm",
+    "assertSprintTitle": ".vs-l-sprint__name",
+    "assertColumnTitle1": ":nth-child(1) > .vs-c-col__head",
+    "assertColumnTitle2": ":nth-child(2) > .vs-c-col__head",
+    "assertBoard": ".vs-c-list__btn > :nth-child(3)"
 
 }
