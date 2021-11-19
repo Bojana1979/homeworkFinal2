@@ -8,15 +8,26 @@
 // You can read more here:
 // https://on.cypress.io/plugins-guide
 // ***********************************************************
-
+const path = require('path');
+const fs = require('fs-extra');
 // This function is called when a project is opened or re-opened (e.g. due to
 // the project's config changing)
-
-/**
- * @type {Cypress.PluginConfig}
- */
-// eslint-disable-next-line no-unused-vars
-module.exports = (on, config) => {
-  // `on` is used to hook into various events Cypress emits
-  // `config` is the resolved Cypress config
+function getConfigurationByFile(file) {
+  const pathToConfigFile = path.resolve(
+    "..",
+    "homeworkFinal2/cypress/environment",
+    `${file}.json`
+  );
+  return fs.readJson(pathToConfigFile);
 }
+    
+        // const pathToConfigFile = path.resolve('homeworkFinal2/cypress/config/', `${file}.json`);
+    // module.exports = (on, config) => {
+      
+    module.exports = (on, config) => {
+      const file = config.env.fileConfig || "qa";
+      return getConfigurationByFile(file);
+    };
+//     const file = config.env.configFile || 'qa';
+
+//     return getConfigurationByFile(file);

@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "cypress:open": "cypress open"
+    "cypress:open": "cypress open",
+    "stage": "cypress open --env fileConfig=stage",
+    "qa": "cypress open --env fileConfig=qa"
   },
   "repository": {
     "type": "git",
@@ -17,7 +19,9 @@
   },
   "homepage": "https://github.com/Bojana1979/homeworkFinal2#readme",
   "devDependencies": {
-    "cypress": "^8.5.0"
+    "cypress": "^8.5.0",
+    "fs-extra": "^10.0.0",
+    "path": "^0.12.7"
   },
   "dependencies": {
     "faker": "^5.5.3"

@@ -40,12 +40,6 @@ describe("login", () => {
         cy.get(loginPage.regzenButton).should('exist')
 
     });
-    // it("negativ login_3", () => {
-    //     cy.visit("/");
-    //     cy.get(loginPage.emailField).clear().type(data.user.email);
-    //     cy.get(loginPage.passwordField).clear().type(data.user.password);
-    //     cy.get(loginPage.loginButtonSubmit)
-    // });
     it("negati login without .com", () => {
         cy.visit("/");
         // cy.get(loginPage.emailField).clear().type(data.negativeData.negativEmail2);
@@ -59,7 +53,7 @@ describe("login", () => {
         cy.get(loginPage.twitterButton).should('exist')
         cy.get(loginPage.regzenButton).should('exist')
     });
-    it("negati login without without name", () => {
+    it("negati login without name", () => {
         cy.visit("/");
         // cy.get(loginPage.emailField).clear().type(data.negativeData.negativEmail3);
         // cy.get(loginPage.passwordField).clear().type(data.user.password);

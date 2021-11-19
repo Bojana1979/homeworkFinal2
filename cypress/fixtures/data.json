@@ -16,6 +16,11 @@
         "password" : "Test1234",
         "users" : "11"
     },
+    "newUser1" : {
+        "email" : "bojana123@gmail.com",
+        "password" : "Test1234",
+        "users" : "11"
+    },
     "newUserNegativ" : {
         "email2" : "bojana",
         "email3" : "bojana@",
