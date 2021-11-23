@@ -31,3 +31,5 @@ function getConfigurationByFile(file) {
 //     const file = config.env.configFile || 'qa';
 
 //     return getConfigurationByFile(file);
+
+// test
